@@ -116,7 +116,7 @@ uint8_t inverterAllowsContactorClosing = 1;
 void setup()
 {
   // Init Serial monitor
-	Serial.begin(9600);
+	Serial.begin(115200);
 	while (!Serial)
 	{
 	}
